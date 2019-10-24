@@ -1,6 +1,6 @@
-FROM alpine:3.5
+FROM alpine:latest
 
-LABEL maintainer "opsxcq@strm.sh"
+LABEL maintainer "nativusdoge@ponzu.co"
 
 RUN apk --no-cache add dnsmasq
 
